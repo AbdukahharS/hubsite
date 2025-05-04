@@ -29,6 +29,9 @@ const QuestionsSurvey = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
+  console.log("Changes v1");
+  
+
   // --- Effects ---
   useEffect(() => {
     const fetchSurveyQuestionsAndResponses = async () => {
